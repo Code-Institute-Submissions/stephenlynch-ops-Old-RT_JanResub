@@ -139,3 +139,71 @@ footer {
 .social-media > li {
     display: inline;
 }
+
+/* Upcoming movies page */
+
+.day-date {
+    height: 75px;
+    width: 100%;
+    margin-top: 80px;
+    line-height: 75px;
+    float: left;
+
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+    
+    text-align: center;
+}
+
+.movies {
+    height: 600px;
+    width: 100%;
+    clear: both;
+}
+
+.movie-left, .special-wrapper {
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.movie-detail {
+    height: 600px;
+    width: 33.33%;
+    float: left;
+}
+
+.trailer {
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movie-header-text, .movie-about-text, .special-title {
+    padding: 5px;
+    line-height: 35px;
+}
+
+.special-wrapper {
+    height: 600px;
+    width: 33.33%;
+    float: right;
+}
+
+.special-contents > h2, p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.special-title {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.special-image {
+    max-height: 400px;
+    width: 100%;
+    background: no-repeat center center;
+    padding-top: 10px;
+}
