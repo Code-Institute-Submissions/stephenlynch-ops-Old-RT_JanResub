@@ -82,3 +82,39 @@ header {
 
     zoom: 155%;
 }
+
+/* About section */
+
+#about {
+    height: 600px;
+}
+
+#about-text {
+    height: 600px;
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    
+    line-height: 45px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    float: left;
+
+    text-align: center;
+    font-size: 110%;
+}
+
+.about-heading {
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.about-images {
+    height: 600px;
+    width: 25%;
+    margin-top: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
