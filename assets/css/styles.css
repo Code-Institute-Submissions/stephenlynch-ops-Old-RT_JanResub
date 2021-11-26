@@ -63,3 +63,22 @@ header {
     border-bottom: 2px dashed #fff;
     border-top: 2px dashed #fff;
 }
+
+/* Hero Image section */
+
+#hero-outer {
+    height: 675px;
+    width: 100%;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 675px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: no-repeat center center;
+
+    zoom: 155%;
+}
