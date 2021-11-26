@@ -251,3 +251,41 @@ footer {
     line-height: 50px;
     padding-left: 60px;
 }
+
+.details-left {
+    float: left;
+    padding: 10px;
+}
+
+.details-left label {
+    font-size: 120%;
+    line-height: 45px
+}
+
+.details-left input, select {
+    height: 30px;
+    text-align: center;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#fav-movie {
+    height: 30px;
+    width: 300px;
+}
+
+#buttons-wrapper {
+    height: 60px;
+    width: 30%;
+    bottom: 5px;
+    right: 10px;
+    position: absolute;
+}
+
+.button {
+    height: 50px;
+    width: 45%;
+    margin: 5px;
+    float: left;
+    box-sizing: border-box;
+}
