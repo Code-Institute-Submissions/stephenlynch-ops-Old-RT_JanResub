@@ -223,8 +223,31 @@ footer {
 #sign-up-hero-image {
     height: 750px;
     width: 100%;
-    padding: 0;
     overflow: hidden;
     float: right;
+    padding: 0px;
     position: relative;
+}
+
+#sign-up-box {
+    height: 500px;
+    width: 800px;
+    right: 150px;
+    top: 200px;
+    position: absolute;
+    border: 3px dashed #fff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#sign-up-box h1 {
+    padding: 15px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#sign-up-box ul {
+    padding: 30px;
+    line-height: 50px;
+    padding-left: 60px;
 }
