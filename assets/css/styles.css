@@ -126,6 +126,7 @@ header {
     width: 100%;
     margin-top: 15px;
     border: none;
+    overflow: hidden;
 }
 
 /* Footer section */
@@ -302,4 +303,3 @@ footer {
 }
 
 /* Mediaqueries */
-
