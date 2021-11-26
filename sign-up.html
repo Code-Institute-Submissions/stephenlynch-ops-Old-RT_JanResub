@@ -48,6 +48,35 @@
                     <h2>Future special offers on tickets and movie memerobilia</h2>
                 </li>
             </ul>
+            <form action="#" method="post">
+                <div class="details-left">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="full-name" placeholder="Your Name" required>
+                </div>
+                <div class="details-left">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="details-left">
+                    <label for="age">Age:</label>
+                    <select name="age" id="age" required>
+                        <option value="under-20">Under 20</option>
+                        <option value="20s">20-29</option>
+                        <option value="30s">30-39</option>
+                        <option value="40s">40-49</option>
+                        <option value="50s">50-59</option>
+                        <option value="60+">60+</option>
+                    </select>
+                </div>
+                <div class="details-left" id="details-movie">
+                    <label for="fav-movie">Your favourite movie:</label>
+                    <input id="fav-movie" type="text" name="fav-movie" placeholder="Your favourite movie" required>
+                </div>
+                <div id="buttons-wrapper">
+                    <input class="button" type="submit" value="Sign Up Now">
+                    <input class="button" type="reset" value="Reset Form">
+                </div>
+            </form>
         </div>
     </section>
 
