@@ -152,10 +152,13 @@ footer {
 
 /* Upcoming movies page */
 
+.buffer {
+    margin-top: 80px;
+}
+
 .day-date {
     height: 75px;
     width: 100%;
-    margin-top: 80px;
     line-height: 75px;
     float: left;
 
@@ -303,3 +306,171 @@ footer {
 }
 
 /* Mediaqueries */
+
+/* Larger to Medium screen sizes ~ 1200px and down */
+
+@media screen and (max-width: 1200px) {
+    
+    #nav-bar li {
+        font-size: 90%;
+        letter-spacing: 2px;
+    }
+    
+    #hero-image {
+        zoom: normal;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #about-images {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    #popcorn {
+        display: none;
+    }
+
+    #about-text {
+        float: left;
+    }
+
+    #ticket-collection {
+        float: right;
+    }
+}
+
+/* Medium to Smaller screen sizes ~ 992px and down  */
+
+@media screen and (max-width: 992px) {
+
+    #nav-bar {
+        font-size: 85%;
+    }
+
+    .buffer {
+        margin-top: 80px;
+    }
+    
+    #hero-outer {
+        margin-top: 76px;
+        height: 450px;
+    }
+
+    #hero-image{
+        height: 450px;
+    }
+
+    #about-text {
+        width: 66.66%;
+        margin: 0px;
+        font-size: 100%;
+    }
+
+    #ticket-collection {
+        width: 33.33%;
+    }
+
+    #ticket-collection {
+        margin: 0px;
+    }
+
+    #location-map {
+        height: 100%;
+        width: 100%;
+    }
+
+    .day-date {
+        margin-top: 0px;
+    }
+
+    .movies-detail {
+        font-size: 80%;
+    }
+
+    #sign-up-box {
+        zoom:85%;
+    }
+
+}
+
+/* Smaller to very small screen sizes ~ 800px and down  */
+
+@media screen and (max-width: 800px) {
+
+    #nav-bar {
+        float: right;
+    }
+
+    #about-text {
+        width: 60%;
+        height: 600px;
+        line-height: 35px;
+        box-sizing: border-box;
+    }
+
+    #ticket-collection {
+        height: 600px;
+        width: 40%;
+        float: right;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .special-title {
+        text-align: left;
+    }
+
+    #sign-up-box {
+        zoom: 75%;
+    }
+}
+
+/* Smaller to very small screen sizes ~ 600px and down  */
+
+@media screen and (max-width: 600px) {
+    
+    #ticket-collection {
+        height: 470px;
+    }
+
+    .upcoming-movies-section {
+        font-size: 80%;
+    }
+
+    .buffer {
+        margin-top: 162px;
+    }
+
+    .movie-left {
+        height: 300px;
+    }
+
+    .special-contents h2 {
+        font-size: 80%;
+    }
+
+    .special-title {
+        margin-bottom: 20px;
+    }
+
+    .special-contents p, img {
+        margin-bottom: 50px;
+    }
+
+    #sign-up-wrapper {
+        height: 450px;
+        width: 100%;
+    }
+
+    #sign-up-hero-image {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }    
+
+    #sign-up-box {
+        zoom: 60%;
+    }
+}
