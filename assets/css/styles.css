@@ -12,3 +12,54 @@ body {
     color: #fff;
     padding-top: 1px;
 }
+
+/* Logo and Navigation section */
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #000;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#nav-bar {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#logo, #nav-bar {
+    line-height: 75px;
+}
+
+#nav-bar li{
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav-bar a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.active {
+    font-size: 175%;
+    border-bottom: 2px dashed #fff;
+    border-top: 2px dashed #fff;
+}
