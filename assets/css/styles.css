@@ -78,7 +78,6 @@ header {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    position: no-repeat center center;
 }
 
 /* About section */
@@ -329,10 +328,6 @@ footer {
         overflow: hidden;
     }
 
-    #popcorn {
-        display: none;
-    }
-
     #about-text {
         float: left;
     }
@@ -361,6 +356,10 @@ footer {
 
     #hero-image{
         height: 450px;
+    }
+
+    #popcorn {
+        display: none;
     }
 
     #about-text {
