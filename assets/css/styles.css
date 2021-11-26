@@ -118,3 +118,24 @@ header {
     box-sizing: border-box;
     float: left;
 }
+
+/* Footer section */
+
+footer {
+    height: 90px;
+    margin-top: 0px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media i {
+    margin: 3px 30px;
+    color: #fff;
+    font-size: 200%;
+}
+
+.social-media > li {
+    display: inline;
+}
