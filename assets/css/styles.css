@@ -66,6 +66,10 @@ header {
 
 /* Hero Image section */
 
+.section-headings {
+    display: none;
+}
+
 #hero-outer {
     height: 675px;
     width: 100%;
