@@ -44,13 +44,13 @@ There was an issue in the links to the sign up page, both form the home and upco
 
 While testing the deployment of the site there was a problem with the images not loading. To resolve this I needed to add a . before the location of the image file as below;
 
-Before: "/assets/images/hero-image.png
+    Before: "/assets/images/hero-image.png
 
-After: "./assets/images/hero-image.png
+    After: "./assets/images/hero-image.png
 
 There is still an issue with the sign up button, in testing I received the below error message.
 
-<img src="./assets/images/sign-up-error.png" alt="Error message from testing the sign up button" style="height: 200px; width: 450px;"/>
+<img src="./assets/images/sign-up-error.png" alt="Error message from testing the sign up button" style="height: 200px; width: 600px;"/>
 
 This will need further work in order to rectify.
 
@@ -62,16 +62,50 @@ W3C Css validator passed the code with no errors.
 
 I ran the lighthouse report and the scores are as below.
 
-<img src="./assets/images/Lighthouse Score.png" alt="Error message from testing the sign up button" style="height: 200px; width: 450px;"/>
+<img src="./assets/images/Lighthouse Score.png" alt="Lighthouse score card." style="height: 200px; width: 450px;"/>
+
+I'm very happy with these scores - with the exception of the preformance score - this I think is impacted by the trailer links that seem to be slower to load that the other elements. Again my limited knowledge in adjusting these elements stopped me from trying to speed the loading time up for these. My thinking was maybe a compressed version would help.
 
 # Deployment
 
-What we did to deploy our site - example shows step by step on how to deploy
+The site is deployed from GitHub. In order to do this I carried out the following actions;
+
+1 Click settings
+
+<img src="./assets/images/settings.png" alt="Settings button" style="height: 75px; width: 150px;"/>
+
+2 Click pages
+
+<img src="./assets/images/pages.png" alt="Pages button" style="height: 75px; width: 250px;"/>
+
+3 Click the 'none' button and select 'main' from the drop down box
+
+<img src="./assets/images/main.png" alt="main drop down list" style="height: 250px; width: 250px;"/>
+
+4 Click the save button
+
+<img src="./assets/images/save.png" alt="Save button" style="height: 150px; width: 400px;"/>
+
+5 Click the link to the page - after a small wait
+
+<img src="./assets/images/link-to-page.png" alt="Link to the deployed page" style="height: 150px; width: 550px;"/>
 
 # Credits
 
 ## Content
 
+The site in influenced by the love running and coders coffeehouse sites, however where possible I tried to build on the lessons from these sites.
+
+I found w3schools.com very helpful for any further explanation I needed on turning an idea into a working element. I used this more for CSS than HTML - certainly for the media quieries i.e. the screen breaks points.
+
 ## Media
 
-Who helped and where images came from etc.
+Although I looked at a number of different free image sites, all of the images in this site are from Pexels as below;
+
+    Cinema Screen Photo by Tima Miroshnichenko from Pexels
+    Tickets Photo by Charlotte May from Pexels
+    Confectionary Photo by Pavel Danilyuk from Pexels
+    Cannoli Photo by Valeria Boltneva from Pexels
+    Jellybears Photo by Pixabay from Pexels
+    Hotdog Photo by Caleb Oquendo from Pexels
+    Red curtain Photo by cottonbro from Pexels
