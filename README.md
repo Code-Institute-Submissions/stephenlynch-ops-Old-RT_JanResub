@@ -52,11 +52,17 @@ There is still an issue with the sign up button, in testing I received the below
 
 <img src="./assets/images/sign-up-error.png" alt="Error message from testing the sign up button" style="height: 200px; width: 450px;"/>
 
+This will need further work in order to rectify.
+
 # Validation
 
-Checked W3C html validator
-Checked w3c CSS validator
-Checked lighthouse (include screenshot) focus on accessibility
+W3C HTML validator returned some errors, but these were in the embeded code for the YouTube links to the movie trailers. The error was for the 'frameborder' attribute on the iframe element. I decided not to adjust these iframes as they were lifted directly from YouTube and my understanding of this is limited. My only adjustment to these iframes was to remove the height and width styling that was inline styled and use the style sheet to make these adjustments.
+
+W3C Css validator passed the code with no errors.
+
+I ran the lighthouse report and the scores are as below.
+
+<img src="./assets/images/Lighthouse Score.png" alt="Error message from testing the sign up button" style="height: 200px; width: 450px;"/>
 
 # Deployment
 
