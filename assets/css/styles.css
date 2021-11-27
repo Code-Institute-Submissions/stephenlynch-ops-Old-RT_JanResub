@@ -439,9 +439,43 @@ footer {
 /* Smaller to very small screen sizes ~ 600px and down  */
 
 @media screen and (max-width: 600px) {
+
+    #logo {
+        font-size: 100%;
+        height: 60px;
+    }
     
+    #nav-bar {
+        font-size: 60%;
+        height: 60px;
+    }
+
+    #hero-outer {
+        height: 300px;
+        width: 100%;
+    }
+
+    #hero-image {
+        height: 300px;
+        width: 300px;
+    }
+
+    #about {
+        height: 750px;
+        width: 100%;
+    }
+
+    #about-text {
+        height: 600px;
+        width: 100%;
+        font-size: 90%;
+        line-height: 25px;
+    }
+
     #ticket-collection {
         height: 470px;
+        width: 100%;
+        float: left;
     }
 
     .upcoming-movies-section {
