@@ -239,34 +239,30 @@ footer h4 {
 /* Sign-up page */
 
 #sign-up-wrapper {
-    height: 750px;
+    height: 450px;
     width: 100%;
-    margin-top: 76px;
 }
 
 #sign-up-hero-image {
-    height: 750px;
+    height: 450px;
     width: 100%;
     overflow: hidden;
-    float: right;
     padding: 0px;
-    position: relative;
 }
 
 #sign-up-box {
-    height: 500px;
-    width: 800px;
-    right: 150px;
-    top: 200px;
-    position: absolute;
+    height: 450px;
+    width: 95%;
     border: 3px dashed #fff;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.5);
+    margin: 2%;
+    display: block;
+    z-index: 1;
 }
 
-#sign-up-box h1 {
-    padding: 15px;
-    text-decoration: underline;
+#sign-up-box h2 {
+    padding: 5px;
     text-align: center;
 }
 
@@ -274,10 +270,8 @@ footer h4 {
     margin-left: 7px;
 }
 
-#sign-up-box ul {
-    padding: 30px;
-    line-height: 50px;
-    padding-left: 60px;
+#benefits {
+    padding-left: 30px;
 }
 
 .details-left {
@@ -306,14 +300,13 @@ footer h4 {
     height: 60px;
     width: 30%;
     bottom: 5px;
-    right: 10px;
-    position: absolute;
+    clear: both;
 }
 
 .button {
     height: 50px;
     width: 45%;
-    margin: 5px;
+    margin: 9px;
     float: left;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
@@ -450,18 +443,38 @@ footer h4 {
     }
 }
 
-/* Smaller to very small screen sizes ~ 600px and down  */
+/* Smaller to very small screen sizes ~ 450px and down  */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
+
+    header {
+        height: 60px;
+        padding-bottom: 5px;
+    }
 
     #logo {
+        width: 100%;
         font-size: 100%;
-        height: 60px;
+        line-height: 60px;
+        margin: 0px;
+        text-align: center;
     }
     
     #nav-bar {
+        width: 100%;
+        display: block;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         font-size: 60%;
         height: 60px;
+    }
+
+    #nav-bar li {
+        margin: 0px;
+        padding: 0px;
+        width: 33.33%;
+        text-align: center;
     }
 
     #hero-outer {
@@ -480,8 +493,9 @@ footer h4 {
     }
 
     #about-text {
-        height: 600px;
+        height: 530px;
         width: 100%;
+        text-align: center;
         font-size: 90%;
         line-height: 25px;
     }
@@ -492,55 +506,119 @@ footer h4 {
         float: left;
     }
 
-    .upcoming-movies-section {
-        font-size: 80%;
+    .socialMedia {
+        padding-top: 5px;
     }
 
-    .buffer {
-        margin-top: 162px;
+    .socialMedia i {
+        padding: 0px;
+        margin: 0px;
+        width: 33.33%;
+        float: left;
+    }
+
+    #copyright {
+        padding: 2px;
+        text-align: center;
+        font-size: 15px;
+    }
+/* Upcoming Movies Page*/
+    .upcoming-movies-section {
+        padding-top: 10px;
+        height: 600px;
+        padding-bottom: 10px;
+    }
+
+    .movie-detail {
+        height: 500px;
+        width: 50%;
+        float: left;
+        padding: 0px;
+    }
+    .day-date {
+        height: 150px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 75px;
+    }
+
+    .movie-time {
+        height: 50px;
+        font-size: 12px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .movie-title {
+        height: 75px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .trailer {
+        height: 200px;
+    }
+
+    .movie-about-text {
+        font-size: 12px;
+        line-height: 20px;
     }
 
     .movie-left {
         height: 300px;
     }
 
-    .special-contents h2 {
-        font-size: 80%;
+    .special-wrapper {
+        height: 500px;
+        width: 100%;
+        clear: both;
     }
 
-    .special-title {
-        margin-bottom: 20px;
+    .special-title  {
+        font-size: 12px;
+        line-height: 20px;
     }
 
     .special-contents p, img {
         margin-bottom: 50px;
     }
-
+/* Sign Up Page */
     #sign-up-wrapper {
-        height: 600px;
+        clear: both;
+        height: 500px;
         width: 100%;
+        align-content: center;
     }
 
     #sign-up-hero-image {
         height: 100%;
         width: 100%;
         overflow: hidden;
-    }    
-
-    #sign-up-box {
-        height: 500px;
-        width: 96%;
-        margin-top: 80px;
-        top: 5px;
-        right: 5px;
+        z-index: -1;
     }
 
-    #sign-up-box ul {
-        line-height: 30px;
+    #sign-up-box {
+        height: 450px;
+        margin-left: 5%;
+        width: 90%;
+        z-index: 1;
+    }
+
+    #sign-up-box h2 {
+        line-height: 18px;
+        font-size: 15px;
+        text-align: start;
+    }
+
+    #benefits {
+        line-height: 12px;
+        font-size: 10px;
+        font-style: italic;
     }
 
     .details-left label {
+        float: left;
         font-size: 100%;
-        line-height: 25px
+        line-height: 20px
     }
 }
