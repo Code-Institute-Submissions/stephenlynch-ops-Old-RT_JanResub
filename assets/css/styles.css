@@ -17,8 +17,13 @@ body {
 
 header {
     width: 100%;
-    position: fixed;
+    height: 75px;
+    position: center;
     background-color: #000;
+}
+
+nav {
+    height: 75px;
 }
 
 #logo {
@@ -73,7 +78,6 @@ header {
 #hero-outer {
     height: 675px;
     width: 100%;
-    margin-top: 80px;
     overflow: hidden;
 }
 
