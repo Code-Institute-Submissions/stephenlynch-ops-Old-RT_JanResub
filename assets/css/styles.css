@@ -532,124 +532,29 @@ footer h4 {
 /* Medium to Smaller screen sizes ~ 950px and down  */
 
 @media screen and (max-width: 950px) {
-
-    header {
-        height: 60px;
-        padding-bottom: 5px;
-    }
-
-    #logo {
-        width: 100%;
-        font-size: 100%;
-        line-height: 60px;
-        margin: 0px;
-        text-align: center;
-    }
     
     #nav-bar {
-        width: 100%;
-        display: block;
-        padding: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
         font-size: 75%;
-        height: 60px;
-    }
-
-    #nav-bar li {
-        margin: 0px;
-        padding: 0px;
-        width: 33.33%;
-        text-align: center;
-    }
-
-    #hero-outer {
-        height: 300px;
-        width: 100%;
     }
 
     #hero-image {
-        height: 300px;
         width: 60%;
         margin-left: 20%;
         margin-right: 20%;
     }
 
-    #about {
-        height: 500px;
-        width: 100%;
-    }
-
-    #popcorn {
-        display: none;
-    }
-
     #about-text {
-        height: 500px;
-        width: 60%;
-        float: left;
-        text-align: center;
         font-size: 80%;
-        line-height: 20px;
-        margin: 0px;
     }
 
-    #ticket-collection {
-        margin: 0px;
-        height: 500px;
-        width: 40%;
-        overflow: hidden;
-    }
-
-    .socialMedia {
-        padding-top: 5px;
-    }
-
-    .socialMedia i {
-        padding: 0px;
-        margin: 0px;
-        width: 33.33%;
-        float: left;
-    }
-
-    #copyright {
-        padding: 2px;
-        text-align: center;
-        font-size: 15px;
-    }
 /* Upcoming Movies Page*/
 
-    .upcoming-movies-section {
-        margin-top: 5px;
-        height: 1250px;
-        margin-bottom: 5px;
-    }
-
-    .movie-detail {
-        height: 500px;
-        width: 50%;
-        float: left;
-        padding: 0px;
-    }
-    .day-date {
-        height: 100px;
-        text-align: center;
-        font-size: 20px;
-        line-height: 35px;
-        display: block;
-    }
-
     .movie-time {
-        height: 50px;
         font-size: 12px;
-        text-align: center;
-        text-decoration: underline;
     }
 
     .movie-title {
-        height: 75px;
         font-size: 15px;
-        text-align: center;
     }
 
     .trailer {
@@ -661,82 +566,11 @@ footer h4 {
         line-height: 20px;
     }
 
-    .movie-left {
-        height: 300px;
-    }
-
-    .special-wrapper {
-        height: 500px;
-        width: 100%;
-        clear: both;
-    }
-
-    .special-contents {
-        width: 100%;
-    }
-
     .special-title  {
         font-size: 12px;
-        line-height: 20px;
     }
 
-    .special-image {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-        overflow: hidden;
-    }
-
-    .special-contents p, img {
-        margin-bottom: 50px;
-    }
 /* Sign Up Page */
-    #sign-up-wrapper {
-        clear: both;
-        height: 700px;
-        width: 100%;
-        align-content: center;
-    }
-
-    #sign-up-hero-image {
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-        z-index: -1;
-    }
-
-    #sign-up-box {
-        height: 630px;
-        margin-left: 5%;
-        width: 90%;
-        z-index: 1;
-    }
-
-    #sign-up-box h2 {
-        line-height: 18px;
-        font-size: 15px;
-        text-align: start;
-    }
-
-    #benefits {
-        line-height: 12px;
-        font-size: 10px;
-        font-style: italic;
-    }
-
-    .details-left label {
-        float: left;
-        font-size: 100%;
-        line-height: 20px
-    }
-
-    #fav-movie {
-        width: 90%;
-    }
-
-    .button {
-        width: 200px;
-    }
 
 }
 
