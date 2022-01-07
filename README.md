@@ -38,6 +38,8 @@ The sign up page has a form for the user to complete in order to sign themselves
 
 The site has been loaded on Google Chrome, Edge, Opera and Firefox and loads as expected with working links.
 
+The site has also been tested on various screen sizes with clear break points written into the styling at 1200px, 950px, 600px and below 400px.
+
 # Bugs
 
 There was an issue in the links to the sign up page, both form the home and upcoming movies pages. This was because when writing the link I had written the page name as 'sign up', once found I added the missing '-' making the file name sign-up.html.
@@ -53,6 +55,8 @@ There is still an issue with the sign up button, in testing I received the below
 <img src="./assets/images/sign-up-error.png" alt="Error message from testing the sign up button" style="height: 200px; width: 600px;"/>
 
 This will need further work in order to rectify.
+
+The originl version was not very responsive on smaller screen sizes, mainly due to the styling, but also because it was trying to fit too much content across the screen. This has been modified to remove the third column of content from the upcoming movie page and also by modifying the layout of the signup page.
 
 # Validation
 
@@ -96,7 +100,7 @@ The site is deployed from GitHub. In order to do this I carried out the followin
 
 The site in influenced by the love running and coders coffeehouse sites, however where possible I tried to build on the lessons from these sites.
 
-I found w3schools.com very helpful for any further explanation I needed on turning an idea into a working element. I used this more for CSS than HTML - certainly for the media quieries i.e. the screen breaks points.
+I found w3schools.com very helpful for any further explanation I needed on turning an idea into a working element. I used this more for CSS than HTML.
 
 ## Media
 
