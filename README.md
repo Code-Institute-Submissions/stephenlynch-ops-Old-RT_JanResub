@@ -8,4 +8,6 @@ The website is designed to show any potential customer what 'The Old Railway The
 
 The users can easily find the movies that are planned in the coming days and by signing up can obtain a a telephone number to book tickets.
 
-## Include link to GitHub live pages version of the site here
+## [View the live website in Github pages](https://stephenlynch-ops.github.io/Old-RT/)
+
+
