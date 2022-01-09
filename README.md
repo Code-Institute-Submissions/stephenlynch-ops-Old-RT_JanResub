@@ -10,4 +10,40 @@ The users can easily find the movies that are planned in the coming days and by 
 
 ## [View the live website in Github pages](https://stephenlynch-ops.github.io/Old-RT/)
 
+## Table of contents
+
+- UX
+    - [Business goals](#Business-goals)
+    - [User goals](#User-goals)
+        - [First time users](#First-time-users)
+        - Returning users
+    - Structure of the website
+    - Website pallette
+- Features
+- Technology
+- Testing
+    - Functionality testing
+    - Compatability testing
+    - Code Validation
+    - Issues found durring testing
+    - Performance testing
+- Deployment
+- Credits
+- Screenshots
+
+# UX
+
+## Business goals
+
+blurbblurbblurbblurbblurbblurb
+blurb
+blurb
+blurb
+blurb
+blurb
+blurb
+
+## First time users
+
+
 
