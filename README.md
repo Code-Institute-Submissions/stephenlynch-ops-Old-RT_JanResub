@@ -61,7 +61,7 @@ The colors were picked to best replicate the feel within a cinema, so a dark bac
 - Background color: #000
 - Font color: #fff
 
-[Table if contents](#Table-of-contents)
+[Return to the table of contents](#Table-of-contents)
 
 # Features
 
@@ -127,7 +127,7 @@ The site also has the following features;
 
 - The site will also need to be upgraded to allow for tickets to be booked online, this will mean the site will need to give the user the ability to log in so they can access the benefits that the members are entitled to.
 
-[Table if contents](#Table-of-contents)
+[Return to the table of contents](#Table-of-contents)
 
 # Technology
 
@@ -155,7 +155,7 @@ The site also has the following features;
 
 - Where the site was developed
 
-[Table if contents](#Table-of-contents)
+[Return to the table of contents](#Table-of-contents)
 
 # Testing
 
@@ -195,7 +195,7 @@ There were visual issue with the upcoming page when viewed on smaller screens. T
 
 <img src="./assets/images/Lighthouse Score.png" alt="Lighthouse score card." style="height: 200px; width: 450px;"/>
 
-[Table if contents](#Table-of-contents)
+[Return to the table of contents](#Table-of-contents)
 
 # Deployment
 
@@ -221,7 +221,7 @@ The site is deployed from GitHub. In order to do this I carried out the followin
 
 <img src="./assets/images/link-to-page.png" alt="Link to the deployed page" style="height: 150px; width: 550px;"/>
 
-[Table if contents](#Table-of-contents)
+[Return to the table of contents](#Table-of-contents)
 
 # Credits
 
@@ -255,4 +255,4 @@ For the media used within the site, all of the images are from Pexels as below;
 
 <img src="./assets/images/Sign-up-screenshot.png" alt="Lighthouse score card." style="height: 200px; width: 450px;"/>
 
-[Table if contents](#Table-of-contents)
+[Return to the table of contents](#Table-of-contents)
