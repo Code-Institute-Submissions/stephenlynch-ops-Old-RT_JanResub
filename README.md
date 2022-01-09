@@ -23,7 +23,7 @@ The users can easily find the movies that are planned in the coming days and by 
     - [Functionality testing](#Functionality-testing)
     - [Compatability testing](#Compatability-testing)
     - [Code Validation](#Code-validation)
-    - [Issues found durring testing](#Issues-found-durring-testing)
+    - [Issues found during testing](#Issues-found-during-testing)
     - [Performance testing](#Performance-testing)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
@@ -155,21 +155,104 @@ The site also has the following features;
 
 - Where the site was developed
 
+[Table if contents](#Table-of-contents)
+
 # Testing
 
-# Functionality testing
+## Functionality testing
 
-# Compatability testing
+I developed the site using Chrome developer tools and laterly using Firfox developer tools.
 
-# Code validation
+## Compatability testing
 
-# Issues found durring testing
+I tested the mobile compatability for the site using the default options on Chrome which covered everything from Galaxy fold to Nest Hub Max. 
 
-# Performance testing
+## Code validation
+
+The code has been run through validator.w3.org to check the the validity of the HTML with no errors or warnings.
+
+The CSS was tested using jigsaw.w3.org and again no errors were found.
+
+## Issues found during testing
+
+When testing the deployment of the site I had an issue with the images not loading. This was because of an error in the root to access the images.
+
+    Before: "/assets/images/hero-image.png
+
+    After: "./assets/images/hero-image.png
+
+There was also an issue with the submit button on the sign-up page, in that it gave me an error message when testing it.
+
+<img src="./assets/images/sign-up-error.png" alt="Error message from testing the sign up button" style="height: 200px; width: 600px;"/>
+
+After consulting with my mentor he suggested that for this project I didn't need the action and method for the button as that was above the scope of this project. I removed this code.
+
+There were visual issue with the upcoming page when viewed on smaller screens. This was due to too much information being squeezed across the screen. Again after consulting my mentor he suggested that I stack this content to make the overall page less cramped and easier to use by users and less of a strain on the eyes.
+
+## Performance testing
+
+- Site has been evaluated by lighthouse and the score card is below.
+
+<img src="./assets/images/Lighthouse Score.png" alt="Lighthouse score card." style="height: 200px; width: 450px;"/>
+
+[Table if contents](#Table-of-contents)
 
 # Deployment
 
+The site is deployed from GitHub. In order to do this I carried out the following actions;
+
+1. Click settings
+
+<img src="./assets/images/settings.png" alt="Settings button" style="height: 75px; width: 150px;"/>
+
+2. Click pages
+
+<img src="./assets/images/pages.png" alt="Pages button" style="height: 75px; width: 250px;"/>
+
+3. Click the 'none' button and select 'main' from the drop down box
+
+<img src="./assets/images/main.png" alt="main drop down list" style="height: 250px; width: 250px;"/>
+
+4. Click the save button
+
+<img src="./assets/images/save.png" alt="Save button" style="height: 150px; width: 400px;"/>
+
+5. Click the link to the page - after a small wait
+
+<img src="./assets/images/link-to-page.png" alt="Link to the deployed page" style="height: 150px; width: 550px;"/>
+
+[Table if contents](#Table-of-contents)
+
 # Credits
+
+The site in influenced by the love running and coders coffeehouse sites, however where possible I tried to build on the lessons from these sites.
+
+I found w3schools.com very helpful for any further explanation I needed on turning an idea into a working element. I used this more for CSS than HTML.
+
+My mentor helped me iron out a couple of issues I had, as above.
+
+For the media used within the site, all of the images are from Pexels as below;
+
+    Cinema Screen Photo by Tima Miroshnichenko from Pexels
+    Tickets Photo by Charlotte May from Pexels
+    Confectionary Photo by Pavel Danilyuk from Pexels
+    Cannoli Photo by Valeria Boltneva from Pexels
+    Jellybears Photo by Pixabay from Pexels
+    Hotdog Photo by Caleb Oquendo from Pexels
+    Red curtain Photo by cottonbro from Pexels
 
 # Screenshots
 
+## Home page
+
+<img src="./assets/images/Home-page-screenshot.png" alt="Lighthouse score card." style="height: 200px; width: 450px;"/>
+
+## Upcoming page
+
+<img src="./assets/images/Upcoming-screenshot.png" alt="Lighthouse score card." style="height: 200px; width: 450px;"/>
+
+## Sign-up page
+
+<img src="./assets/images/Sign-up-screenshot.png" alt="Lighthouse score card." style="height: 200px; width: 450px;"/>
+
+[Table if contents](#Table-of-contents)
