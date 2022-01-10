@@ -98,13 +98,11 @@ nav {
     width: 50%;
     margin-top: 10px;
     padding: 10px;
-    
     line-height: 45px;
     border: 1px solid #fff;
     border-radius: 3px;
     box-sizing: border-box;
     float: left;
-
     text-align: center;
     font-size: 110%;
 }
@@ -171,10 +169,8 @@ footer h4 {
     width: 100%;
     line-height: 75px;
     float: left;
-
     border-top: 1px dashed #fff;
     border-bottom: 1px dashed #fff;
-    
     text-align: center;
 }
 
